@@ -1,37 +1,125 @@
-.wrapper{
-    width: 75%;
-    margin: 0 auto;
-      
+header{
+    height:90px;
 }
-/*body{
+.bloc{
     width: 100%;
-}*/
+    position: relative;
+}
 
-li{
-	float: right;
+/* -------------------header--------------- */
+.logo{
+    position: absolute;
+    top: 21px;
+    left: 21px;
+    
     
 }
-span{
-	color: #66b8e2;
+    
+.menu  ul{
+    position: absolute;
+    left: 100px;
+    top: 40px;
 }
-body{
-	width: 100%;
+.menu li{
+    font-family: "Ropa Sans" , sans-serif;
+    
+    display: inline-block;
+    padding: 0px 20px 30px 20px;
+    font-size: 14px;
+    
+    
+
 }
-img {
-	width: 50%;
+li:hover{
+    color: #44a8dc;
+    
+    border-bottom: 3px solid #44a8dc;
+    padding: 0 0 30px 0;
+}
+.count li{
+    font-family: "Ropa Sans" , sans-serif;
+    font-size: 14px;
+    
+    margin-left: -15px;
+    
+    display: inline-block;
+    padding: 0px 20px 30px 20px;
 }
 
+.count  ul{
+    position: absolute;
+    left: 74%;
+    top: 40px;
+}
 
+.count img {
+    padding: 0 10px 0 0;
+}
 /* -------------------block--------------- */
+/* -------------------block-1--------------- */
 .block-1{
-    background-color: #ffffff;
-    width: 100%;
-
+    height: 610px;
+    position: relative;
 }
-.block-2{
-    background-image:url(img/air%20max%20vue%20dessus.jpg);
+.small-shoes{
+    position: absolute;
+    top:157px;
+    left:130px;
 }
-.block-3{
+.wrapper{
+    width: 320px;
+    margin: 0 auto;
+    position: absolute;
+    top:60px;
+    left:854px;
+    height: 400px;
+}
+.heart{
+    padding: 20px;
+    border: 1px solid #e4e4e4;
+}
+.wrapper h3{
+    font-size: 25px;
+    padding: 40px 0 6px 0;
+}
+.wrapper p{
+    font-size: 16px;
+    color: #808080;
+    padding: 15px 0 10px 0;
+}   
+.price{
+    font-size: 18px;
+    color: #808080;
     
 }
-block-4{}
+.size{
+    font-size: 12px;
+    color: #c1c1c1;
+}
+#shoes-size{
+    border: 3px solid #8f8f8f;
+    width: 147px;
+    height: 50px;
+    background: rgba(68,78,86,0);
+    margin-top: 14px;
+}
+/* -------------------block-2--------------- */
+.block-2{
+    
+    height: 660px;
+    background: url("images/bloc2/fond.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* -------------------block-3--------------- */
+.block-3{
+    height: 660px;
+    background: url("images/bloc3/bgnike.png");
+}
+/* -------------------block-4--------------- */
+block-4{
+    height: 660px;
+    background-color: antiquewhite;
+}
+/* -------------------footer--------------- */
