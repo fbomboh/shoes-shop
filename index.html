@@ -2,14 +2,15 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <title>ThemFast</title>
+    <title>nike</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="e-shop.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="wrapper">
+    <header class="bloc">
+        <div class="menu">
+            <img src="img/Header/logo.png">
             <ul class="menu">
                 <li><a>Footwear</a></li>
                 <li><a>Clothing</a></li>
@@ -19,45 +20,58 @@
                 <li><a>Exclusive</a></li> 
             </ul>
         </div>
-        <div>
+        <div class="count">
             <ul>
-            <img src="img/shape.png" alt="#" class="picto">
-            <li>Search</li>
-            <img src="" alt="#" class="picto">
-            <li>Cart <span class="bleue">(2)</span></li>
-            <img src="" alt="#" class="picto">
-            <li>Sign in</li>
+                <img src="img/Header/icon-search.png" alt="#" class="picto">
+                <li>Search</li>
+                <img src="img/Header/icon-shop.png" alt="#" class="picto">
+                <li>Cart <span class="bleue">(2)</span></li>
+                <img src="img/Header/icon-compte.png" alt="#" class="picto">
+                <li>Sign in</li>
             </ul>
         </div>
     </header>
     <main>
         <!---------------BLOC 1----------- -->
         
-        <div class="bloc-1">
+        <div id="bloc-1" class="bloc">    
+            <img class="small-shoes"src="img/bloc-1/nike-air-max.png" alt="air max">
             <div class="wrapper">
-                <div>
-                    <img src="img/air%20max%20sd.jpg" alt="air max">
-                </div>
-                <div>
-                    <h3>nike</h3>
-                    <h2>air max tavas SD</h2>
-                    <span>$ 160.00</span>
-                    <p>Colors - Black/Pink Pow/Tour Yellow/White </p>
-                    <img src="img/air%20max%20xs.jpg" alt="air max xs">
-                    <img src="img/air%20max%20xs2.jpg" alt="air max xs grey">
-                    <p>Size charts</p>
-                    <div class="btn-size">
-                        <p>size</p>
-                    </div>
-                    <div class="add">
-                        <p>add to cart</p>
-                    </div>
-                </div>
+                <img class="heart" src="img/bloc-1/coeur.png">
+                <h3>nike</h3>
+                <h2>air max tavas SD</h2>
+                <span>$ 160.00</span>
+                <p>Colors - Black/Pink Pow/Tour Yellow/White </p>
+                <img src="img/bloc-1/nike-air-max-s-color.png" alt="air max xs">
+                <img src="img/bloc-1/nike-air-max-s-grey.png" alt="air max xs grey">                    
+                <p class="size">Size charts</p>
+                <select name="Size" id="shoes-size">
+                    <option value="32">32</option>
+                    <option value="33">33</option>
+                    <option value="34">34</option>
+                    <option value="35">35</option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                    <option value="44">44</option>
+                    <option value="45">45</option>
+                    <option value="46">46</option>
+                    <option value="47">47</option>
+                    <option value="48">49</option>
+                </select>
+            
+            <input id="Butt" type="button" value="Add to cart"></input>
+            </div>
             </div>
         </div>
      <!---------------BLOC 2--------------------------------------------->
         
-        <div class="bloc-2">
+        <div class="bloc-2, bloc">
             <div class="wrapper">
                 <h2>CLASSIC CUSHIONING. MODERN </h2>
                 <p>The Nike Air Max Tavas SD Men's Shoe recalls the profile of the iconic running original with a Max Air unit in the heel and multi-surface Waffle outsole. A lightweight upper and gradient detail offer a comfortable fit and dynamic look.</p>
@@ -65,7 +79,7 @@
         </div>
     <!-----------------------BLOC 3------------------------------------>
         
-        <div class="bloc-3">
+        <div class="bloc-3, bloc">
             <div class="wrapper">
                 <h3>Story</h3>
                 <h2>NIKE AIR MAX ORIGINS</h2>
@@ -85,7 +99,7 @@
                     <h3>nike</h3>
                     <p>Air max Tavas SD</p>
                     <a>Black/Pink Pow/Tour </a>
-                    <img src="img/air%20max%20sd%20m.jpg" alt="air max m">
+                    <img src="img/bloc-3/on-side.png" alt="air max m">
                     <h3>En stock</h3>
                     <span>$ 160.00</span>
                     <div class="btn-size">
@@ -98,7 +112,7 @@
             </div>
         </div>
     <!-----------------------------BLOC 4--------------------------------->
-        <div class="bloc-4">
+        <div class="bloc-4,bloc">
             <div class="wrapper">
                 <h3>social</h3>
                 <h2>#NIKEAIRMAX</h2>
@@ -107,14 +121,14 @@
                         <!-------------------------swiper------------------------------->
         <div></div>
     </main>
-    <footer>
+    <footer class="bloc">
         <div class="wrapper"> 
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="img/slider-1.jpg" alt="img"></div>
-                    <div class="swiper-slide"><img src="img/slider-2.jpg" alt="img"></div>
-                    <div class="swiper-slide"><img src="img/slider-3.jpg" alt="img"></div>
-                    <div class="swiper-slide"><img src="img/slider-4.jpg" alt="img"></div>
+                    <div class="swiper-slide"><img src="img/bloc-4/slider-1.jpg" alt="img"></div>
+                    <div class="swiper-slide"><img src="img/bloc-4/slider-2.jpg" alt="img"></div>
+                    <div class="swiper-slide"><img src="img/bloc-4/slider-3.jpg" alt="img"></div>
+                    <div class="swiper-slide"><img src="img/bloc-4/slider-4.jpg" alt="img"></div>
                 
                 </div>
             <div class="swiper-pagination"></div>  
