@@ -1,140 +1,158 @@
-<!doctype html>
-<html lang="fr">
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8">
-    <title>nike</title>
-    <link rel="stylesheet" href="reset.css">
+    <title>NikeBoots</title>
     <link rel="stylesheet" href="e-shop.css">
+    <link rel="stylesheet" href="reset-mayer.css">
+    <link rel="stylesheet" href="swiper.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,800,600,500italic,500,400italic,600italic,300,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300italic' rel='stylesheet' type='text/css'>
+   
 </head>
-
 <body>
-    <header class="bloc">
-        <div class="menu">
-            <img src="img/Header/logo.png">
-            <ul class="menu">
-                <li><a>Footwear</a></li>
-                <li><a>Clothing</a></li>
-                <li><a>Accessory</a></li>
-                <li><a>Accessories</a></li>
-                <li><a>Brands</a></li> 
-                <li><a>Exclusive</a></li> 
-            </ul>
+<!--------------------------------------------------------------------------->  
+<!---------------------------------MENU-------------------------------------->
+<!--------------------------------------------------------------------------->  
+<div id="menu">
+    <div id="wrapper">
+        <div id="leftB">
+            <img class="logo" src="img/Header/logo.png" alt="img">
+            <div class="menu">
+                <ul>
+                    <a href="#"><li class="first"><span>FOOTWEAR</span></li></a>
+                    <a href="#"><li class="first"><span>CLOTHING</span></li></a>
+                    <a href="#"><li class="first"><span>ACCESSOIRIES</span></li></a>
+                    <a href="#"><li class="first"><span>BRANDS</span></li></a>
+                    <a href="#"><li class="second"><span>EXCLUSIVE</span></li></a>
+                </ul> 
+            </div>
         </div>
-        <div class="count">
-            <ul>
-                <img src="img/Header/icon-search.png" alt="#" class="picto">
-                <li>Search</li>
-                <img src="img/Header/icon-shop.png" alt="#" class="picto">
-                <li>Cart <span class="bleue">(2)</span></li>
-                <img src="img/Header/icon-compte.png" alt="#" class="picto">
-                <li>Sign in</li>
-            </ul>
+        <div id="rightB">
+            <div class="search">
+                <a href="#" class="liner">
+                <img class="imgS" src="img/Header/icon-search.png" alt="img">
+                <p id="right-Title">SEARCH</p></a>
+            </div>
+
+            <div class="cart">
+                <a href="#" class="liner">
+                <img class="imgC" src="img/Header/icon-shop.png" alt="img">
+                <p id="rightTitle">CART<spam class="number">(2)</spam></p></a>
+            </div>
+           <div class="sign">
+                <a href="#" class="liner">
+                <img class="imgS" src="img/Header/icon-compte.png" alt="img">
+                <p id="rightTitle">SIGN IN</p></a>
+            </div>  
         </div>
-    </header>
-    <main>
-        <!---------------BLOC 1----------- -->
-        
-        <div id="bloc-1" class="bloc">    
-            <img class="small-shoes"src="img/bloc-1/nike-air-max.png" alt="air max">
-            <div class="wrapper">
-                <img class="heart" src="img/bloc-1/coeur.png">
-                <h3>nike</h3>
-                <h2>air max tavas SD</h2>
-                <span>$ 160.00</span>
-                <p>Colors - Black/Pink Pow/Tour Yellow/White </p>
-                <img src="img/bloc-1/nike-air-max-s-color.png" alt="air max xs">
-                <img src="img/bloc-1/nike-air-max-s-grey.png" alt="air max xs grey">                    
-                <p class="size">Size charts</p>
-                <select name="Size" id="shoes-size">
-                    <option value="32">32</option>
-                    <option value="33">33</option>
-                    <option value="34">34</option>
-                    <option value="35">35</option>
-                    <option value="36">36</option>
-                    <option value="37">37</option>
-                    <option value="38">38</option>
-                    <option value="39">39</option>
-                    <option value="40">40</option>
-                    <option value="41">41</option>
-                    <option value="42">42</option>
-                    <option value="43">43</option>
-                    <option value="44">44</option>
-                    <option value="45">45</option>
-                    <option value="46">46</option>
-                    <option value="47">47</option>
-                    <option value="48">49</option>
-                </select>
+    </div>
+</div>  
+<!--------------------------------------------------------------------------->  
+<!---------------------------------PAGE 1------------------------------------>
+<!--------------------------------------------------------------------------->  
+<div id="page1" class="bloc1">
+    <div class="airMax">
+        <img class="imgAirMax" src="img/bloc-1/nike-air-max.png" alt="img">
+        <div class="buy">
+            <a href="#"><img class="heart" src="img/bloc-1/arrow.png" alt="img"></a>
+            <h2 id="H2" class="brand">NIKE</h2>
+            <h1 class="model">AIR MAX TAVAS SD</h1>
+            <p class="price">$ 160.00</p>
+            <p class="detail">COLORS - <span id="color">BLACK/PINK POW/TOUR YELLOW/WHITE</span></p>
+            <a href="#"><img class="imgAirMax2" src="img/bloc-1/nike-air-max-s-color.png" alt="img"></a>
+            <a href="#"><img class="imgAirMax3" src="img/bloc-1/nike-air-max-s-grey.png" alt="img"></a>
+            <spam class="size">Size charts</spam>
             
-            <input id="Butt" type="button" value="Add to cart"></input>
-            </div>
-            </div>
+            
+            <a href="#"><div id="boxSize" class="boxSA">
+                <span id="letterSize">SIZE</span>
+                <img id="arrow" src="img/bloc-1/arrow.png" alt="img">
+            </div></a>
+            <a href="#"><div id="boxAdd" class="boxSA">
+                <span id="add2Cart">ADD TO CART</span>
+            </div></a>
         </div>
-     <!---------------BLOC 2--------------------------------------------->
-        
-        <div class="bloc-2, bloc">
-            <div class="wrapper">
-                <h2>CLASSIC CUSHIONING. MODERN </h2>
-                <p>The Nike Air Max Tavas SD Men's Shoe recalls the profile of the iconic running original with a Max Air unit in the heel and multi-surface Waffle outsole. A lightweight upper and gradient detail offer a comfortable fit and dynamic look.</p>
-            </div>
+    </div>
+</div>
+<!--------------------------------------------------------------------------->  
+<!---------------------------------PAGE 2------------------------------------>
+<!---------------------------------------------------------------------------> 
+<div id="page2" class="bloc2">
+    <div class="backgroundIMG">
+        <img class="backgroundShoes" src="img/bloc-2/background.png" alt="img">
+    </div> 
+    <div class="blocTextP2">
+        <h2 id="H2" class="text1">CLASSIC CUSHIONING. MODERN COMFORT.</h2>
+        <p id="textSite" class="textColor">The Nike Air Max Tavas SD Men's Shoe recalls the profile of the iconic running original with a Max Air unit in the heel and <br>multi-surface Waffle outsole. A lightweight upper and gradient detail offer a comfortable fit and dynamic look.</p>
+    </div>
+</div>  
+<!--------------------------------------------------------------------------->  
+<!---------------------------------PAGE 3------------------------------------>
+<!--------------------------------------------------------------------------->
+ <div id="page3" class="bloc3">
+    <div class="backgroundIMG2">
+        <img class="backgroundShoes2" src="img/bloc-3/on-top.png" alt="img">
+    </div> 
+    <div class="blocTextP3">
+        <span id="greyTitle" class="story">STORY</span>
+        <h2 id="H2" class="Title2">NIKE AIR MAX ORIGINS</h2>
+         <p id="textSite" class="para1">Nike's revolutionary Air-Sole unit made its way into Nike footwear in the late '70s. In 1987, the Nike Air Max 1 debuted with visible air in its heel, allowing fans more than just the feel of Air-Sole comfort</p>
+        <span id="greyTitle" class="benefit">BENEFITS</span>
+        <div class="bloc2TextP3">
+            <h3 id="H3">Layered textile/synthetic upper </h3>
+            <p class="insideBlocP">For lightweight durability and comfort </p>
+            <h3 id="H3">Injected Phylon midsole doubles</h3>
+            <p class="insideBlocP">Outsole to reduce the overall weight of the shoe</p>
+            <h3 id="H3">Max Air heel unit</h3>
+            <p class="insideBlocP">Delivers maximum lightweight cushioning</p>
+            <h3 id="H3">Rubber Waffle outsole</h3>
+            <p class="insideBlocP">Durable, multi-surface traction</p>
         </div>
-    <!-----------------------BLOC 3------------------------------------>
-        
-        <div class="bloc-3, bloc">
-            <div class="wrapper">
-                <h3>Story</h3>
-                <h2>NIKE AIR MAX ORIGINS</h2>
-                <p>Nike's revolutionary Air-Sole unit made its way into Nike footwear in the late '70s. In 1987, the Nike Air Max 1 debuted with visible air in its heel, allowing fans more than just the feel of Air-Sole comfort</p>
-                <h3>BENEFITS</h3>
-                <div>
-                    <h2>Layered textile/synthetic upper </h2>
-                    <p>for lightweight durability and comfort </p>
-                    <h2>Injected Phylon midsole doubles </h2>
-                    <p>Outsole to reduce the overall weight of the shoe</p>
-                    <h2>Max Air heel unit </h2>
-                    <p>delivers maximum lightweight cushioning </p> 
-                    <h2>Rubber Waffle outsole </h2>
-                    <p>Durable, multi-surface traction</p>
-                </div>
-                <div>
-                    <h3>nike</h3>
-                    <p>Air max Tavas SD</p>
-                    <a>Black/Pink Pow/Tour </a>
-                    <img src="img/bloc-3/on-side.png" alt="air max m">
-                    <h3>En stock</h3>
-                    <span>$ 160.00</span>
-                    <div class="btn-size">
-                        <p>size</p>
-                    </div>
-                    <div class="add">
-                        <p>add to cart</p>
-                    </div>
-                </div>  
-            </div>
+    </div>
+     <div class="buy2">
+        <h2 id="H2" class="Title3">NIKE</h2> 
+        <p id="textSite" class="para2">Air max Tavas TD</p>
+        <span id="color" class="colorStyle">BLACK/PINK POW/TOUR YELLOW/WHITE</span>
+        <img class="AirmaxTavas" src="img/bloc-3/on-side.png" alt="img">
+        <p class="stock">EN STOCK</p>
+        <p class="dollarP">$160.00</p>
+        <div class="button">
+        <a href="#"><div id="boxSize" class="boxP3">
+                <span id="letterSize">SIZE</span>
+                <img id="arrow" src="img/down-arrow.svg" alt="img">
+            </div></a>
+            <a href="#"><div id="boxAdd" class="boxP3">
+                <span id="add2Cart">ADD TO CART</span>
+            </div></a>
         </div>
-    <!-----------------------------BLOC 4--------------------------------->
-        <div class="bloc-4,bloc">
-            <div class="wrapper">
-                <h3>social</h3>
-                <h2>#NIKEAIRMAX</h2>
-            </div>
-        </div>
-                        <!-------------------------swiper------------------------------->
-        <div></div>
-    </main>
-    <footer class="bloc">
-        <div class="wrapper"> 
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="img/bloc-4/slider-1.jpg" alt="img"></div>
-                    <div class="swiper-slide"><img src="img/bloc-4/slider-2.jpg" alt="img"></div>
-                    <div class="swiper-slide"><img src="img/bloc-4/slider-3.jpg" alt="img"></div>
-                    <div class="swiper-slide"><img src="img/bloc-4/slider-4.jpg" alt="img"></div>
+         
+     </div>
+</div> 
+<!--------------------------------------------------------------------------->  
+<!---------------------------------PAGE 4------------------------------------>
+<!--------------------------------------------------------------------------->    
+<div id="page4" class="bloc4">   
+    <div class="endPage">
+        <span id="greyTitle" class="social">SOCIAL</span>
+        <h2 id="H2" class="hashtag">#NIKEAIRMAX</h2>
+    </div>
+    <div class="wrapperEnd"> 
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/bloc-4/slider-1.png" alt="img"></div>
+                <div class="swiper-slide"><img src="img/bloc-4/slider-2.png" alt="img"></div>
+                <div class="swiper-slide"><img src="img/bloc-4/slider-3.png" alt="img"></div>
+                <div class="swiper-slide"><img src="img/bloc-4/slider-4.png" alt="img"></div>
                 
-                </div>
-            <div class="swiper-pagination"></div>  
+            </div>
+        <div class="swiper-pagination"></div>  
         </div> 
-     
-    </footer>
-    <script src=""></script>
+    </div>    
+</div>     
+
+<script src="swiper.min.js"></script>
+<script src="NikeBoots.js"></script>
 </body>
 </html>
