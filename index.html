@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>NikeBoots</title>
+    <title>Nike-aire</title>
     <link rel="stylesheet" href="e-shop.css">
     <link rel="stylesheet" href="reset-mayer.css">
     <link rel="stylesheet" href="swiper.min.css">
@@ -56,7 +56,7 @@
     <div class="airMax">
         <img class="imgAirMax" src="img/bloc-1/nike-air-max.png" alt="img">
         <div class="buy">
-            <a href="#"><img class="heart" src="img/bloc-1/arrow.png" alt="img"></a>
+            <img class="heart" src="img/bloc-1/arrow.png" alt="img">
             <h2 id="H2" class="brand">NIKE</h2>
             <h1 class="model">AIR MAX TAVAS SD</h1>
             <p class="price">$ 160.00</p>
@@ -66,13 +66,23 @@
             <spam class="size">Size charts</spam>
             
             
-            <a href="#"><div id="boxSize" class="boxSA">
-                <span id="letterSize">SIZE</span>
-                <img id="arrow" src="img/bloc-1/arrow.png" alt="img">
-            </div></a>
-            <a href="#"><div id="boxAdd" class="boxSA">
-                <span id="add2Cart">ADD TO CART</span>
-            </div></a>
+            <select name="Size" id="sizechart">
+                <option value="34">34</option>
+                <option value="35">35</option>
+                <option value="36">36</option>
+                <option value="37">37</option>
+                <option value="38">38</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+                <option value="44">44</option>
+                <option value="45">45</option>
+                <option value="46">46</option>
+            </select>
+            
+            <input id="Butt" type="button" value="Add to cart"></input>
         </div>
     </div>
 </div>
@@ -83,7 +93,7 @@
     <div class="backgroundIMG">
         <img class="backgroundShoes" src="img/bloc-2/background.png" alt="img">
     </div> 
-    <div class="blocTextP2">
+    <div class="paragraphe">
         <h2 id="H2" class="text1">CLASSIC CUSHIONING. MODERN COMFORT.</h2>
         <p id="textSite" class="textColor">The Nike Air Max Tavas SD Men's Shoe recalls the profile of the iconic running original with a Max Air unit in the heel and <br>multi-surface Waffle outsole. A lightweight upper and gradient detail offer a comfortable fit and dynamic look.</p>
     </div>
@@ -119,13 +129,25 @@
         <p class="stock">EN STOCK</p>
         <p class="dollarP">$160.00</p>
         <div class="button">
-        <a href="#"><div id="boxSize" class="boxP3">
-                <span id="letterSize">SIZE</span>
-                <img id="arrow" src="img/down-arrow.svg" alt="img">
-            </div></a>
-            <a href="#"><div id="boxAdd" class="boxP3">
-                <span id="add2Cart">ADD TO CART</span>
-            </div></a>
+        <a href="#">
+            <select name="Size-2" id="sizechart-2">
+                <option value="34">34</option>
+                <option value="35">35</option>
+                <option value="36">36</option>
+                <option value="37">37</option>
+                <option value="38">38</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+                <option value="44">44</option>
+                <option value="45">45</option>
+                <option value="46">46</option>
+            </select>
+            
+            <input id="Butt" type="button" value="Add to cart"></input>
+            
         </div>
          
      </div>
@@ -153,6 +175,6 @@
 </div>     
 
 <script src="swiper.min.js"></script>
-<script src="NikeBoots.js"></script>
+<script src="e-shop.js"></script>
 </body>
 </html>
